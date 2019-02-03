@@ -4,9 +4,7 @@ class Mp3Importer
   end
   attr_accessor :path
   def files
-    @files = Dir.chdir(@path) { 
-      Dir.glob("*.mp3")
-      }
+    @files = Dir.chdir(@path) {  Dir.glob("*.mp3") }
   end
   def import
     files.each do |file_name|
