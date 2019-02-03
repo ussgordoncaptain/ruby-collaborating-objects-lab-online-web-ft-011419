@@ -21,7 +21,7 @@ class Artist
       if name == x.name
         found_or_new = x 
       else 
-        found_or_new= Self.new(name)
+        found_or_new= self.new(name)
         
       end
     end
