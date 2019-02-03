@@ -22,7 +22,7 @@ class Artist
         found_or_new = x 
       else 
         y= Song.new(name)
-         found_or_new = y.artist
+        found_or_new = y.artist
       end
     end
       return found_or_new
