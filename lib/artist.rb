@@ -21,7 +21,7 @@ class Artist
       if name == x.name
         found_or_new = x 
       else 
-        Song.new(name)
+        return Song.new(name)
       end
     end
       return found_or_new
