@@ -28,7 +28,7 @@ class Artist
       return found_or_new
   end
   def print_songs
-    @@all.each do |song|
+    @songs.each do |song|
       puts song
     end
   end
