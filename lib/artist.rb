@@ -21,7 +21,7 @@ class Artist
       if name == x.name
         found_or_new = x 
       else 
-        found_or_new= Song.new(name)
+        found_or_new= Self.new(name)
         
       end
     end
